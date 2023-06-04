@@ -1,0 +1,42 @@
+VENDAS
+cadastrar uma nova venda, e para começar a venda deve inserir em sequencia
+:
+O CPF e depois a lista de produtos informando (codigo do produto e quantidade de itens desse produtÇ
+
+Sistema deve conferir se esse cliente esta cadastrado procurando o cpf dele no sistema
+caso nao esteja, deve-se cadastrar primeiro antes de receber a lista de produtos comprados
+depois de inserir a lista de produtos, com base no codigo do produto, deve-se exibir na teal o nome o preço e a quantidade em estoque
+se nao houver quantidade de produto no estoque mostrar mensagem "nao há quantidade disponivel do produto" e dai ignora o pedido
+se houver quantidade sistema deve reduzir 1 do estoque e aumentar 1 no campo Quantidade de produtos no ItensCompra
+
+para registrar a venda deve-se gravar os dados da venda e os itens comprados no arquivo Vendas
+Deve-se gerar um numero de identificaçao da venda, seguindo a logica de acrescentar 1 ao numero anterior, entao 1, 2,3...
+
+
+
+
+
+
+
+
+PRODUTO
+Incluir novos produtos e salvá-los
+alterar dados de um produto e salvar as alteraçoes
+Mostras os produtos com estoque abaixo de 5
+listar os produtos por Setor
+
+
+
+CLIENTES
+cadastrar ou atualizar dados dos clientes e salvá los no arquivo
+atualizar a pontuaçao a partir das vendas registradas em seu cpf a cada 1 real = 1 ponto
+localizar as compras de um cliente com base no cpf ou no seu nome completo
+exibir informaçoes Data da Compra, Valor da compra e Quantidade De Produtos para o usuario
+
+Listar nome dos clientes com mais de 1000 pontos
+Listar quantos clientes estao na faixa de idade entre 18 e 25 anos
+
+
+
+
+ITENSCOMPRA
